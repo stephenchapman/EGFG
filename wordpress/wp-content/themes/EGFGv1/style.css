@@ -1,0 +1,180 @@
+/*
+Theme Name:     EGFGv1
+Theme URI:      http://stephen-chapman.com
+Description:    Child theme for EGFG using the Roots Bootstrap theme 
+Author:         Stephen Chapman
+Author URI:     http://stephen-chapman.com
+Template:       EGFG
+Version:        1.0.0
+*/
+
+/* GLOBAL STYLES
+    -------------------------------------------------- */
+    /* Padding below the footer and lighter body text */
+
+    body {
+        padding-top: 20px;
+        padding-bottom: 60px;
+        background: #ffffff url('/wp-content/themes/EGFGv1/assets/img/egfg-bg.png') repeat left top;
+      }
+    
+    /* Custom container */
+      .container {
+        margin: 0 auto;
+        max-width: 1000px;
+      }
+      .container > hr {
+        margin: 60px 0;
+      }
+
+    /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 80px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 100px;
+        line-height: 1;
+      }
+      .jumbotron .lead {
+        font-size: 24px;
+        line-height: 1.25;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+    /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+
+    /* Featurette styles */
+      #featurette {
+        margin: 50px 20px 0px 20px;
+
+      }
+
+      .thumbnail {
+        background: #ffffff;
+      }
+
+      .thumbnail img {
+        height: 75px;
+      }
+
+      .logo {
+        text-align:center;
+        padding: 10px 0;
+      }
+
+      input, textarea, .uneditable-input {
+        width: 100%;
+      }
+
+      .form-container {
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+      }
+
+      .form-signup {
+       /* max-width: 300px;*/
+        padding: 19px 29px 29px;
+        margin: 0 auto 20px;
+        background-color: 
+        #fff;
+        border: 1px solid 
+        #e5e5e5;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+        -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+        box-shadow: 0 1px 2px rgba(0,0,0,.05);
+      }
+
+      .form-signup input[type="text"], .form-signup input[type="name"] {
+        font-size: 16px;
+        height: auto;
+        margin-bottom:15px;
+        padding: 7px 9px;
+      }
+
+      .input-block-level {
+        display: block;
+        width: 100%;
+        min-height: 30px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+
+      .hero-unit {
+        background: #333 url('/wp-content/themes/EGFGv1/assets/img/cherry-blossom.jpg');
+      }
+
+      /**.restaurant-icons {
+        text-align: center;
+        margin: 20px 0px;
+      }**/
+
+    /* Footer styles */
+      i.ss-icon.social-footer, i.ss-icon.restaurant-icon {
+        font-size: 12px;
+      }
+      footer {
+        margin: 0 30px;
+      }
+
+    /* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+
+    /* Customize the navbar links to be fill the entire space of the .navbar */
+      /*.navbar .navbar-inner {
+        padding: 0;
+      }
+      .navbar .nav {
+        margin: 0;
+        display: table;
+        width: 100%;
+      }
+      .navbar .nav li {
+        display: table-cell;
+        width: 1%;
+        float: none; */
+      }
+      .navbar .nav li a {
+        font-weight: bold;
+        text-align: center;
+        border-left: 1px solid rgba(255,255,255,.75);
+        border-right: 1px solid rgba(0,0,0,.1);
+      }
+      .navbar .nav li:first-child a {
+        border-left: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      .navbar .nav li:last-child a {
+        border-right: 0;
+        border-radius: 0 3px 3px 0;
+      }
+      .brand img {
+        width: 35px;
+        height: 35px;
+      }
+      .navbar .brand {
+        margin-left: 0px;
+      }
+      /*.navbar .nav {
+        margin-top: 0px;
+      }*/
+      .navbar .nav li a {
+        text-transform: uppercase;
+      }
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */

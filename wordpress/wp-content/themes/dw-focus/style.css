@@ -1,0 +1,40 @@
+/*
+Theme Name: EGFG
+Theme URI: http://www.eatgoodfoodgroup.com
+Author: Stephen Chapman
+Author URI: http://www.stephen-chapman.com
+Description: Responsive WordPress Theme for EGFG (based on DW Focus)
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+*/
+
+body{background: #ffffff url('/wp-content/themes/dw-focus/assets/img/bg-mottled.jpg') repeat left top;}
+.site-header #branding a{background-position: center!important; height:200px;}
+.news-slider .carousel .carousel-inner .entry-category {background: rgb(101, 139, 52);}
+.news-slider .carousel-list .other-entry li.active {border-left: 5px solid rgb(101, 139, 52);}
+.navbar .nav li a:hover, .navbar .nav li a:active, .navbar .nav li a:focus {color: rgb(101, 139, 52);}
+.navbar .nav .current_page_item>a, .navbar .nav .current-menu-item>a, .navbar .nav .current-post-ancestor>a, .navbar .nav .current-menu-parent>a, .navbar .nav .current-menu-ancestor>a {color: rgb(101, 139, 52);}
+/*.news-slider {background: rgba(0, 0, 0, 0.41);}*/
+.btn-group {display: none;}
+.desktop .wrap-navigation {width: 100%;}
+#colophon.dark #site-info .small-logo {background-image: url(../img/square_egfg_logo_50x50.jpg);}
+#sidebar-header .hentry .entry-thumbnail {border: 4px solid black;}
+.navbar .navbar-inner {background: #A9BB72; border: 0; margin-bottom: 20px;}
+.navbar-inner {border: 0;}
+#under-navigation {background: #C2B885;}
+.navbar .nav li {border-left: 0;}
+.navbar .nav li a {font-family: Helvetica,sans-serif;font-size: 14px;line-height: 20px;color: white;}
+.desktop #under-navigation {display: none;}
+/*.nav-tabs {background: #fff;}*/
+.news-slider .carousel-list h3 {border-bottom: 1px solid #C2B885;background: #C2B885;}
+.news-slider .carousel-list h3:before, .news-slider .carousel-list h3:after {border-top: 6px solid #C2B885;}
+/*.nav-tabs a {background: #C2B885;}*/
+.nav-tabs>.active>a, .nav-tabs>.active>a:hover {background: #C2B885 !important;}
+.nav-tabs>.active>a:before, .nav-tabs>.active>a:hover:before {border-top: 6px solid #C2B885;}
+.navbar .nav .menu-item-object-category .sub-mega-wrap .subcat .subcat-title a {color: #666;}
+.navbar .nav .menu-item-object-category .sub-mega-wrap {background: #C2B885;}
+.calp-agenda-widget-view {background: none;border: 0;}
+.calp-agenda-widget-view .calp-date {background: none;}
+.navbar .nav .menu-item-object-category .sub-mega-wrap .subcat a {font-size: 14px;}
+.calp-agenda-widget-view .calp-widget-title h2 {display: none;}
