@@ -14,8 +14,13 @@
  * @package WordPress
  */
 
-//Use these settings on the local server
+//Use these settings on the local server if local config file is present
 if ( file_exists( dirname( __FILE__ ) . '/wp-local-config.php' ) ) {
+	include(dirname( __FILE__) . '/wp-local-config.php' );
+
+//Otherwise use these settings on the playground server if playground config is present
+} elseif {
+	( file_exists( dirname( __FILE__ ) . '/wp-local-config.php' ) ) {
 	include(dirname( __FILE__) . '/wp-local-config.php' );
 
 //Otherwise use the below settings (on live server)
