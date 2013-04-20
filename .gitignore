@@ -1,0 +1,7 @@
+wordpress/assets/*
+.DS_Store
+wordpres/.DS_Store
+wordpress/wp_local-config.php
+wordpress/upgrade/*
+wordpress/license.txt
+wordpress/readme.html
